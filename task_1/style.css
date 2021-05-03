@@ -1,0 +1,19 @@
+.one{
+    display: flex;
+    flex-direction: row;
+}
+.two .three{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    height:300px;
+    width: 400px;
+    margin: 5px;
+}
+.two > div{
+    height:100px;
+    width: 400px;
+    margin: 5px;
+    overflow: scroll;
+}

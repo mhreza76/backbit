@@ -21,3 +21,12 @@ foreach ($id as $id_key => $id_value){
 }
 
 
+echo "<br>";
+print "Multidimensional Array <br>";
+$students = array(
+    'cse' => array("reza", "hasib"),
+    'eee' => array("tahmid", "ibad")
+);
+echo $students['cse'][0] . "<br>";
+echo $students['cse'][1] . "<br>";
+echo $students['eee'][0] . "<br>";

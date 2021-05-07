@@ -14,7 +14,7 @@ for ($i = 0; $i < sizeof($names); $i++){
 }
 
 echo "<br>";
-print "Associative Based Array <br>";
+print "Associative Array <br>";
 $id = array("reza" => "60", "hasib" => "81", "sajin" => "76", "ome" => "73");
 foreach ($id as $id_key => $id_value){
     echo "Key = " . "$id_key" . " Value = " . "$id_value <br>";

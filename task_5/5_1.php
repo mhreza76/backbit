@@ -32,7 +32,7 @@ echo $students['cse'][1] . "<br>";
 echo $students['eee'][0] . "<br>";
 
 echo "<br>";
-print "CGPA <br>";
+print "GPA Calculator<br>";
 $numbers = array( "bangla" => 85.5, "english" => 84, "math" => 92, "physics" => 63, "chemistry" => 54);
 $num_of_subject = sizeof($numbers);
 $sum = 0;

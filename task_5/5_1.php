@@ -33,7 +33,7 @@ echo $students['eee'][0] . "<br>";
 
 echo "<br>";
 print "CGPA <br>";
-$numbers = array(85.5, 84, 92, 63, 54);
+$numbers = array( "bangla" => 85.5, "english" => 84, "math" => 92, "physics" => 63, "chemistry" => 54);
 $num_of_subject = sizeof($numbers);
 $sum = 0;
 foreach($numbers as $num){

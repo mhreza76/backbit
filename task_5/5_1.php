@@ -1,17 +1,8 @@
 <?php
 $a = 60;
-$b = 12341;
+$b = 1223341;
 $c = -1321;
-$max = NULL;
-if($a > $b AND $a > $c){
-    $max = $a;
-}
-if($b > $a AND $b > $c){
-    $max = $b;
-}
-else{
-    $max = $c;
-}
+$max = max($a, $b, $c);
 echo "Max: " . $max . "<br>";
 
 echo "<br>";
@@ -28,3 +19,5 @@ $id = array("reza" => "60", "hasib" => "81", "sajin" => "76", "ome" => "73");
 foreach ($id as $id_key => $id_value){
     echo "Key = " . "$id_key" . " Value = " . "$id_value <br>";
 }
+
+
